@@ -9,9 +9,13 @@
 import Foundation
 
 class Concentration {
-    var cards: Array<Card>
+    var cards = [Card]()
     
     func ChooseCard(at index: Int) {
         
+    }
+    
+    init(numberOfPairsOfCards: Int) {
+        let card = Card(identifier: identifier)
     }
 }

@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var game = Concentration()
     //instance variable or property
     //MUST have an initial value
     //hold down option and click on a variable to see data type
