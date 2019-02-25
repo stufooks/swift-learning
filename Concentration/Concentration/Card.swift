@@ -17,7 +17,15 @@ struct Card {
     var isMatched = false
     var identifier: Int
     
-    init(identifier: Int) {
-        self.identifier = identifier
+    static var identifierFactory = 0
+    
+    //a static function cannot be sent with a new card, stores on the TYPE card
+    static func getUniqueIdentifier() -> Int {
+        identifierFactory += 1
+        return identifierFactory
+    }
+    
+    init() {
+        self.identifier = Card.getUniqueIdentifier()
     }
 }
