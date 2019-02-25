@@ -12,6 +12,8 @@
 		1791D4CF22246F0900CEA4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1791D4CD22246F0900CEA4A2 /* Main.storyboard */; };
 		1791D4D122246F0B00CEA4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1791D4D022246F0B00CEA4A2 /* Assets.xcassets */; };
 		1791D4D422246F0B00CEA4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1791D4D222246F0B00CEA4A2 /* LaunchScreen.storyboard */; };
+		1791D4DD22248E6500CEA4A2 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791D4DC22248E6500CEA4A2 /* Concentration.swift */; };
+		1791D4DF22248F1E00CEA4A2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791D4DE22248F1E00CEA4A2 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1791D4D022246F0B00CEA4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1791D4D322246F0B00CEA4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1791D4D522246F0B00CEA4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1791D4DC22248E6500CEA4A2 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		1791D4DE22248F1E00CEA4A2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1791D4DB2224703D00CEA4A2 /* Supporting Files */,
 				1791D4CB22246F0900CEA4A2 /* ViewController.swift */,
 				1791D4CD22246F0900CEA4A2 /* Main.storyboard */,
+				1791D4DC22248E6500CEA4A2 /* Concentration.swift */,
+				1791D4DE22248F1E00CEA4A2 /* Card.swift */,
 				1791D4D522246F0B00CEA4A2 /* Info.plist */,
 			);
 			path = Concentration;
@@ -145,6 +151,8 @@
 			files = (
 				1791D4CC22246F0900CEA4A2 /* ViewController.swift in Sources */,
 				1791D4CA22246F0900CEA4A2 /* AppDelegate.swift in Sources */,
+				1791D4DD22248E6500CEA4A2 /* Concentration.swift in Sources */,
+				1791D4DF22248F1E00CEA4A2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
